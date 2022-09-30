@@ -60,3 +60,13 @@ section {
 }
 
 /* end fonts */
+
+.hero-img {
+    flex: 0 0.2 content;
+    min-width: 0;
+    align-self: center;
+}
+.hero-img img {
+    width: 100%;
+    object-fit: cover;
+}
