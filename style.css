@@ -27,8 +27,7 @@ div.limit-width {
     display: flex;
 }
 section {
-    min-height: 20vh;
-    padding: 2vmax;
+    padding: 3vh;
 }
 .dark-bg {
     background-color: var(--dk-ink);
