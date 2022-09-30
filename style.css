@@ -93,3 +93,23 @@ section.hero > *{
     padding: 0.8rem 2.0rem;
     border-radius: 10px;
 }
+
+section.quote > * {
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+.quote p {
+    font-size: 2.2rem;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 25em;
+    margin: auto 1em;
+    align-self: center;
+}
+
+aside.quote-attrib {
+    align-self: end;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
