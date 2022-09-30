@@ -13,11 +13,14 @@ header > * {
     justify-content: space-between;
     width: 100%;
 }
+section > * {
+    justify-content: center;
+}
 div.limit-width {
     max-width: 80rem;
     margin: 0 auto 0 auto;
     display: flex;
-    gap: 3vmax
+    gap: 2vmax
 }
 .flx {
     display: flex;
@@ -39,7 +42,7 @@ section {
     color: var(--dk-ink);
 }
 
-/* fonts */
+
 .head-logo {
     flex: 0 0 auto;
     font-size: 2.4rem;
@@ -50,16 +53,27 @@ section {
     color: var(--mouse);
     gap: 1.5ex;
 }
+
+section.hero {
+    min-height: 70vh;
+    display: flex;
+    align-items: stretch;
+}
+section.hero > *{
+    align-items: center;
+}
 .hero h1 {
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
     font-size: 3.6rem;
     font-weight: bolder;
+    max-width: 7em;
 }
 .hero p {
     font-size: 1.6rem;
     color: var(--mouse);
+    max-width: 20em;
 }
-
-/* end fonts */
 
 .crop {
     flex: 0 0.2 content;
