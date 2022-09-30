@@ -1,5 +1,6 @@
 :root {
     --dk-ink: #1f2937;
+    --bright-ink: #3882F6;
     --white: #f9faf8;
     --mouse: #e5e7eb;
 }
@@ -83,4 +84,13 @@ section.hero > *{
 .crop img {
     width: 100%;
     object-fit: cover;
+}
+
+.hero button {
+    background-color: var(--bright-ink);
+    color: var(--white);
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.8rem 2.0rem;
+    border-radius: 10px;
 }
