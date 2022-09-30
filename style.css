@@ -77,7 +77,7 @@ section.hero > *{
 }
 
 .crop {
-    flex: 0 0.2 content;
+    flex: 0 1 content;
     min-width: 0;
     align-self: center;
 }
