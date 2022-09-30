@@ -50,23 +50,23 @@ section {
     color: var(--mouse);
     gap: 1.5ex;
 }
-.hero-header {
+.hero h1 {
     font-size: 3.6rem;
     font-weight: bolder;
 }
-.hero-secondary {
+.hero p {
     font-size: 1.6rem;
     color: var(--mouse);
 }
 
 /* end fonts */
 
-.hero-img {
+.crop {
     flex: 0 0.2 content;
     min-width: 0;
     align-self: center;
 }
-.hero-img img {
+.crop img {
     width: 100%;
     object-fit: cover;
 }
