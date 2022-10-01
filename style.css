@@ -99,12 +99,14 @@ section.random > * {
     justify-items: center;
 }
 .random h1 {
-    margin: 0;
-    font-size: 2.2rem;
+    margin: .5em auto;
+    text-align: center;
+    font-size: 1.8rem;
 }
 div.grab-bag {
     display: flex;
     font-size: 0.8rem;
+    text-align: center;
 }
 .random .crop {
     max-width: fit-content;
@@ -112,4 +114,8 @@ div.grab-bag {
 .random .crop img {
     border-radius: 20px;
     border: var(--bright-ink) solid 5px;
+}
+
+.random figure {
+    margin: 8px;
 }
