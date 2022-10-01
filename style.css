@@ -93,3 +93,26 @@ section.hero > *{
     padding: 0.8rem 2.0rem;
     border-radius: 10px;
 }
+
+section.cta {
+    padding: 8vw;
+}
+
+.interact-box {
+    display: flex;
+    background-color: var(--bright-ink);
+    color: var(--white);
+    border-radius: 0.8rem;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.interact-box article {
+    margin: 3vh;
+    max-width: 20em;
+}
+
+.interact-box h1 {
+    margin: 0.25em;
+}
