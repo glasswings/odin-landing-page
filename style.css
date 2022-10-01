@@ -118,3 +118,11 @@ section.cta {
 .interact-box h1 {
     margin: 0.25em;
 }
+
+.interact-box button {
+    color: var(--white);
+    border-style: solid;
+    border-color: white;
+    border-width: 1.8px;
+    background-color: var(--bright-ink);
+}
