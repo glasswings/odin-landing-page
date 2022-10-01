@@ -17,6 +17,11 @@ header > * {
 section > * {
     /* justify-content: center; */
 }
+button {
+    font-size: 1.2rem;
+    padding: 0.8rem 2.0rem;
+    border-radius: 10px;
+}
 div.limit-width {
     max-width: 80rem;
     margin: 0 auto 0 auto;
@@ -89,9 +94,6 @@ section.hero > *{
     background-color: var(--bright-ink);
     color: var(--white);
     border: none;
-    font-size: 1.2rem;
-    padding: 0.8rem 2.0rem;
-    border-radius: 10px;
 }
 
 section.cta {
