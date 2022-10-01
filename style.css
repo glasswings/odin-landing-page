@@ -17,6 +17,11 @@ header > * {
 section > * {
     /* justify-content: center; */
 }
+button {
+    font-size: 1.2rem;
+    padding: 0.8rem 2.0rem;
+    border-radius: 10px;
+}
 div.limit-width {
     max-width: 80rem;
     margin: 0 auto 0 auto;
@@ -89,7 +94,86 @@ section.hero > *{
     background-color: var(--bright-ink);
     color: var(--white);
     border: none;
-    font-size: 1.2rem;
-    padding: 0.8rem 2.0rem;
-    border-radius: 10px;
+}
+
+section.random > * {
+    flex-direction: column;
+    justify-items: center;
+}
+.random h1 {
+    margin: .5em auto;
+    text-align: center;
+    font-size: 1.8rem;
+}
+div.grab-bag {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.random .crop {
+    max-width: fit-content;
+}
+.random .crop img {
+    border-radius: 20px;
+    border: var(--bright-ink) solid 5px;
+}
+
+.random figure {
+    flex: 0 1 120px;
+    margin: 8px;
+}
+
+section.quote > * {
+    flex-direction: column;
+    padding: 2.5rem;
+}
+
+.quote p {
+    font-size: 2.2rem;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 25em;
+    margin: auto 1em;
+    align-self: center;
+}
+
+aside.quote-attrib {
+    align-self: end;
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+
+section.cta {
+    padding: 8vw;
+}
+
+.interact-box {
+    display: flex;
+    background-color: var(--bright-ink);
+    color: var(--white);
+    border-radius: 0.8rem;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.interact-box article {
+    margin: 3vh;
+    margin-right: 0;
+    max-width: 20em;
+    flex-shrink: 2;
+}
+
+.interact-box h1 {
+    margin: 0.25em;
+}
+
+.interact-box button {
+    color: var(--white);
+    margin: 5px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1.8px;
+    background-color: var(--bright-ink);
 }
