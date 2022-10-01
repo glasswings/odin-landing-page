@@ -109,3 +109,7 @@ div.grab-bag {
 .random .crop {
     max-width: fit-content;
 }
+.random .crop img {
+    border-radius: 20px;
+    border: var(--bright-ink) solid 5px;
+}
