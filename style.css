@@ -93,3 +93,16 @@ section.hero > *{
     padding: 0.8rem 2.0rem;
     border-radius: 10px;
 }
+
+section.random > * {
+    flex-direction: column;
+    align-items: center;
+}
+.random h1 {
+    margin: 0;
+    font-size: 2.2rem;
+}
+div.grab-bag {
+    display: flex;
+    font-size: 1.6rem;
+}
