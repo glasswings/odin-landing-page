@@ -9,6 +9,7 @@
     --white: #f9faf8;
     --mouse: #e5e7eb;
     --link-color: #9bc3f1;
+    --limit-width: 75rem;
 }
 body {
     margin: 0;
@@ -37,7 +38,7 @@ button {
 /* utilities */
 
 div.limit-width {
-    max-width: 80rem;
+    max-width: var(--limit-width);
     margin: 0 auto 0 auto;
     display: flex;
     gap: 2vmax
@@ -90,17 +91,20 @@ section.hero {
 section.hero > *{
     align-items: center;
 }
+.hero article {
+    flex: 0 6 auto;
+}
 .hero h1 {
-    margin-block-start: 0.4em;
+    margin-block-start: 0;
     margin-block-end: 0.4em;
     font-size: 3.6rem;
     font-weight: bolder;
-    max-width: 7em;
+    /* max-width: 7em; */
 }
 .hero p {
     font-size: 1.6rem;
     color: var(--mouse);
-    max-width: 20em;
+    /* max-width: 20em; */
 }
 .hero button {
     background-color: var(--bright-ink);
@@ -111,6 +115,7 @@ section.hero > *{
 /* random information */
 
 section.random > * {
+    --limit-width: 55rem;
     flex-direction: column;
     justify-items: center;
 }
@@ -140,6 +145,7 @@ div.grab-bag {
 /* inspiring quote */
 
 section.quote > * {
+    --limit-width: 55rem;
     flex-direction: column;
     padding: 2.5rem;
 }
@@ -161,9 +167,11 @@ aside.quote-attrib {
 /* cta */
 
 section.cta {
-    padding: 8vw;
+    padding: 5rem;
 }
 .interact-box {
+    max-width: var(--limit-width);
+    margin: auto;
     display: flex;
     background-color: var(--bright-ink);
     color: var(--white);
