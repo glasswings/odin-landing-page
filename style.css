@@ -1,16 +1,19 @@
 /* elements */
 
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Reggae One');
 :root {
     --dk-ink: #1f2937;
     --bright-ink: #3882F6;
     --white: #f9faf8;
     --mouse: #e5e7eb;
-    --link-color: var(--bright-ink);
+    --link-color: #9bc3f1;
 }
 body {
     margin: 0;
     font-size: 2rem;
-    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Kanit', 'Impact', 'Arial Narrow Bold', sans-serif;
 }
 section {
     padding: 3vh;
@@ -24,9 +27,11 @@ a {
     color: var(--link-color);
 }
 button {
+    font-family: 'Reggae One', sans-serif;
     font-size: 1.2rem;
     padding: 0.8rem 2.0rem;
     border-radius: 10px;
+    flex: 0 0 auto; 
 }
 
 /* utilities */
@@ -139,8 +144,9 @@ section.quote > * {
     padding: 2.5rem;
 }
 .quote p {
+    font-family: 'Raleway', sans-serif;
     font-size: 2.2rem;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
     max-width: 25em;
     margin: auto 1em;
@@ -187,5 +193,6 @@ section.cta {
 /* footer */
 footer {
     padding: 0.6rem;
+    font-size: 1.6rem;
     text-align: center;
 }
